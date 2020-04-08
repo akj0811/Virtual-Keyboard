@@ -1,15 +1,6 @@
 # Numpy Library
 
  * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :  
-<<<<<<< HEAD
-   **Parameters** - 
-   		* arr - array-like (input array)
-   		* axis - None/int/tuple of ints (optional)
-
-   	**Output** - 
-   	It returns all or subset of the given array. It basically removes the one - dimensional entries along the specified axis.
-   	**Error** - 
-=======
    **Parameters** -   
     * arr - array-like (input array)
    	* axis - None/int/tuple of ints (optional)
@@ -17,7 +8,6 @@
    	**Output** -   
    	It returns all or subset of the given array. It basically removes the one - dimensional entries along the specified axis.  
    	**Error** -   
->>>>>>> 724e49bca6811aee34526388e1ce0245b434e7c6
    	If the specified axis direction is not one-dimensional, then a Value-Error is raised. 
 
  * **[numpy.set_printoptions()]()** :
@@ -41,15 +31,9 @@ print(a)
 
  * numpy.random.random()(asterisk)mu + sigma returns random values from the normal distribution with sigma as the mean and mu as the standard deviation.
  * By default, the data type of numpy array is of the type float.
-<<<<<<< HEAD
- * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :
-   **Parameters** :
-=======
  * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :  
    **Parameters** :  
->>>>>>> 724e49bca6811aee34526388e1ce0245b434e7c6
    		(start of range, end of range, number of elements required)
-
  * We can use integer/boolean arrays other than integers for array indices.
  * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :  
    **Parameters** :  
