@@ -1,6 +1,6 @@
 # Numpy Library
 
- * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :
+ * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :  
    **Parameters** - 
    		* arr - array-like (input array)
    		* axis - None/int/tuple of ints (optional)
@@ -33,7 +33,7 @@ print(a)
  * By default, the data type of numpy array is of the type float.
  * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :
    **Parameters** :
-   		* (start of range, end of range, number of elements required)
+   		(start of range, end of range, number of elements required)
 
  * We can use integer/boolean arrays other than integers for array indices.
  * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :

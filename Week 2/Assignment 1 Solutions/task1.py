@@ -1,25 +1,15 @@
-import numpy as np
-
-t = int(input())
-
 matches = {}
-player_score = {}
-for i in range(t):
+players = {}
+for i in range(int(input())):
 	match_info = list(input().split(':'))
 	player_info = list(match_info[1].split(','))
-
-	ind_info = {}
-	for z in player_info:
-		z = list(z.split('-'))
-		ind_info[z[0]] = int(z[1])
-		if z[0] in player_score:
-			player_score[z[0]] += int(z[1])
+	matches[match_info[0]] = {}
+	for x in player_info:
+		y = x.split('-')
+		matches[match_info[0]][y[0]] = int(y[1])
+		if y[0] in players:
+			players[y[0]] += int(y[1])
 		else:
-			player_score[z[0]] = int(z[1])
-	matches[match_info[0]] = ind_info
-
-data = [('name', 'U10'),('score', int)]
-scores = np.array(list(player_score.items()), dtype = data)
-scores[::-1].sort(order = ['score', 'name'])
+			players[y[0]] = int(y[1])
 print(matches)
-print(list(scores))
+print(sorted(list(players.items()), key = lambda item: (item[1], item[0]), reverse = True))
