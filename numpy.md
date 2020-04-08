@@ -37,7 +37,7 @@ print(a)
 
  * We can use integer/boolean arrays other than integers for array indices.
  * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :  
-   ** Parameters** :  
+   **Parameters** :  
    	* function - the function from which the array is to be generated.
    	* shape - the shape of the array
 
