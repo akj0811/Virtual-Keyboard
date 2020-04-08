@@ -31,12 +31,12 @@ print(a)
 
  * numpy.random.random()(asterisk)mu + sigma returns random values from the normal distribution with sigma as the mean and mu as the standard deviation.
  * By default, the data type of numpy array is of the type float.
- * **[numpy.linspace]()** :
+ * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :
    **Parameters** :
    		* (start of range, end of range, number of elements required)
 
  * We can use integer/boolean arrays other than integers for array indices.
- * **[numpy.fromfunction]()** :
+ * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :
    ** Parameters** :
    		function - the function from which the array is to be generated.
    		shape - the shape of the array
