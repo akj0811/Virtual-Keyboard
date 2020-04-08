@@ -33,20 +33,20 @@ print(a)
  * By default, the data type of numpy array is of the type float.
  * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :  
    **Parameters** :  
-   		* (start of range, end of range, number of elements required)
+   		(start of range, end of range, number of elements required)
 
  * We can use integer/boolean arrays other than integers for array indices.
  * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :  
    ** Parameters** :  
-   		* function - the function from which the array is to be generated.
-   		* shape - the shape of the array
+   	* function - the function from which the array is to be generated.
+   	* shape - the shape of the array
 
    	It is used to create an array by applying certain function on the indices of the array of any shape.
 
  * Writing -1 in reshape means that the dimension is automatically calculated by using the other dimensions.
 
- * Linear algebra tools are also there in the library -   
- 		* numpy.linalg.inv(a)
- 		* numpy.eye(n)
- 		* a.transpose()
- 		* numpy.linalg.eig(a)
+ * Linear algebra tools are also there in the library -
+ 	* numpy.linalg.inv(a)
+ 	* numpy.eye(n)
+ 	* a.transpose()
+ 	* numpy.linalg.eig(a)
