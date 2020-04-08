@@ -1,1 +1,4 @@
-
+This was the week when I actually started writing codes and implementing stuff. An assignment was alloted that contained problems regarding basic python and image processing techniques like filtering out the noise, K Means Clustering, Meam Filter etc.  
+I learned about various numpy library functionalities. I have made a file that contains some notes on Numpy Library, I am updating that on a regular basis now.  
+I learned the image processing techniques, though we didn't actually need to implement the techniques full-fledgedly but it was a great learning experience doing the assignment.  
+The solutions to the assignment problems that was uploaded by other teams and the mentors were a good source of learning for me. For the same problem, there were multiple solutions. Even if there were solutions following the same algorithm, the implemenetations were strikingly different that helped me understand efficient and quicker methods to solve the problem.  
