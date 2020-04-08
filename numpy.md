@@ -1,16 +1,16 @@
 # Numpy Library
 
- * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :
-   **Parameters** - 
-   		* arr - array-like (input array)
-   		* axis - None/int/tuple of ints (optional)
+ * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :  
+   **Parameters** -   
+    * arr - array-like (input array)
+   	* axis - None/int/tuple of ints (optional)
 
-   	**Output** - 
-   	It returns all or subset of the given array. It basically removes the one - dimensional entries along the specified axis.
-   	**Error** - 
+   	**Output** -   
+   	It returns all or subset of the given array. It basically removes the one - dimensional entries along the specified axis.  
+   	**Error** -   
    	If the specified axis direction is not one-dimensional, then a Value-Error is raised. 
 
- * **[numpy.set_printoptions]()** :
+ * **[numpy.set_printoptions()]()** :
  	By default, when an array is printed, if the size of the array is too large to fit entirely in the screen, then the middle elements are skipped while printing. By using this function, the entire array is printed on the terminal when the array is invoked.
  
  ``` python
