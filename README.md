@@ -1,4 +1,4 @@
-# Virtual-Keyboard-SoC-Report
+# Virtual Keyboard
 
  * This repo contains all the the things that I learned during this SoC project of mine that aims to make a Virtual Keyboard.
  * It contains all the assignment problems and its solutions. 
