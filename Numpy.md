@@ -1,5 +1,9 @@
 # Numpy Library
 
+Numpy is a widely used library. It is of extensive use in the python programming. It's functions are of immense use in coding, they simplify our work and make the code look cleaner. The functions available in the library are very efficient making our codes really fast.
+
+Here, I list down a few important functions and some notes related to the library.
+
  * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :  
    **Parameters** -   
     * arr - array-like (input array)
