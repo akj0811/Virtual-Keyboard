@@ -1,4 +1,4 @@
-# OpenCV Libarary
+# OpenCV Library
 
 It is a library of programming functions that are aimed at real-time computer vision. It supports models from Deep Learning frameworks like TensorFlow, Torch, PyTorch etc. It has wide ranging applications, a few of them are listed below - 
 
