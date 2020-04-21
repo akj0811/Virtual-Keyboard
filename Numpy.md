@@ -4,18 +4,45 @@ Numpy is a widely used library. It is of extensive use in the python programming
 
 Here, I list down a few important functions and some notes related to the library.
 
- * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :  
-   **Parameters** -   
-    * arr - array-like (input array)
-   	* axis - None/int/tuple of ints (optional)
+ * **[numpy.squeeze()](https://www.geeksforgeeks.org/numpy-squeeze-in-python/)** :  `numpy.squeeze(arr, axis)`  
+   | Parameters |  Functions  |
+   | ---------- |  ---------  |
+   | arr        | The array to be squeezed                                   |
+   | axis       | Specifies the axis along which elements are to be squeezed |
 
-   	**Output** -   
-   	It returns all or subset of the given array. It basically removes the one - dimensional entries along the specified axis.  
-   	**Error** -   
-   	If the specified axis direction is not one-dimensional, then a Value-Error is raised. 
+    * It is used to remove the one-dimensional entries along the specified axis.
+    * If the specified axis direction is not one-dimensional, then a Value-Error is raised.
+ * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :  `numpy.linspace(start, end, num)`  
+   | Parameters |  Functions  |
+   | ---------- |  ---------  |
+   | start      | Starting element of the range   |
+   | end        | Ending element of the range     |
+   | num        | Number of elements in the range |
+   
+    * It is used to generate a range of a certain length and the set terminal elements.
+   
+ * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :  `numpy.fromfunction(function, shape)`   
+ 
+   | Parameters |  Functions  |
+   | ---------- |  ---------  |
+   | function   | The function from which the array is to be generated  |
+   | shape      | The shape of the array                                |
 
- * **[numpy.set_printoptions()]()** :
- 	By default, when an array is printed, if the size of the array is too large to fit entirely in the screen, then the middle elements are skipped while printing. By using this function, the entire array is printed on the terminal when the array is invoked.
+   	* It is used to create an array by applying certain function on the indices of the array of any shape.
+ * **[numpy.random.normal()](https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.normal.html)** :  `numpy.random.normal(mean, std_deviation, shape)`  
+ 
+   | Parameters    |  Functions  |
+   | ------------- |  ---------  |
+   | mean          | The mean of the distribution               |
+   | std_deviation | The standard deviation of the distribution |
+   | shape         | The shape of the array                     |
+  
+    * It returns an array of random numbers from the normal distribution with the set mean and standard deviation.
+ 
+
+ * **[numpy.set_printoptions()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.set_printoptions.html)** :  ` numpy.set_printoptions(args)`  
+ 
+ 	  * It is used to set the various formatting options for the *print* statement.
  
  ``` python
 import sys
@@ -30,23 +57,12 @@ print(a)
   	Shallow copy simply assigns a new variable name to the existing array. It means that the elements are copied as a reference. So, changing one array changes the other too.
   	Deep Copy copies the elements but they are stored at different memory locations. So, changing one array doesn't affect the other one.
 
- * a(asterisk)b denotes the element wise multiplication of the two numpy arrays.
-   a.dot(b) represents matrix multiplication of the two arrays.
+ * *a\*b* denotes the element wise multiplication of the two numpy arrays whereas *a.dot(b)* represents matrix multiplication of the two arrays.
 
- * numpy.random.random()(asterisk)mu + sigma returns random values from the normal distribution with sigma as the mean and mu as the standard deviation.
  * By default, the data type of numpy array is of the type float.
- * **[numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)** :  
-   **Parameters** :  
-   		(start of range, end of range, number of elements required)
+
+ * Writing *-1* in reshape means that the dimension is automatically calculated by using the other dimensions.
  * We can use integer/boolean arrays other than integers for array indices.
- * **[numpy.fromfunction()](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html)** :  
-   **Parameters** :  
-   	* function - the function from which the array is to be generated.
-   	* shape - the shape of the array
-
-   	It is used to create an array by applying certain function on the indices of the array of any shape.
-
- * Writing -1 in reshape means that the dimension is automatically calculated by using the other dimensions.
 
  * Linear algebra tools are also there in the library -
  	* numpy.linalg.inv(a)
